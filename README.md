@@ -1,60 +1,45 @@
 # PRODIGY_SD_01
 
-# 🌡️ Temperature Converter
+# Temperature Converter
 
-A Python-based Temperature Conversion Program that converts temperatures between Celsius, Fahrenheit, and Kelvin.
+A Python program that converts temperatures between Celsius, Fahrenheit, and Kelvin using a simple menu-driven interface.
 
----
+## Features
 
-## 🚀 Features
+- Celsius to Fahrenheit and Kelvin
+- Fahrenheit to Celsius and Kelvin
+- Kelvin to Celsius and Fahrenheit
+- Input validation
+- Conversion history
+- File handling
+- Menu-driven interface
 
-- Celsius → Fahrenheit & Kelvin
-- Fahrenheit → Celsius & Kelvin
-- Kelvin → Celsius & Fahrenheit
-- Input Validation
-- Menu Driven Interface
-- Conversion History
-- File Handling
-- Clean & Professional Code
-
----
-
-## 🛠 Technologies Used
+## Technologies Used
 
 - Python 3
-- Standard Library
 
----
-
-## 📂 Project Structure
+## Project Structure
 
 ```
-Temperature-Converter/
+PRODIGY_SD_01/
 │
 ├── temperature_converter.py
-├── requirements.txt
 ├── README.md
 ├── LICENSE
-├── .gitignore
-└── conversion_history.txt
+├── requirements.txt
+└── .gitignore
 ```
 
----
-
-## ▶️ Run
+## How to Run
 
 ```bash
 python temperature_converter.py
 ```
 
----
-
-## 📸 Sample Output
+## Sample Output
 
 ```
-==============================
 TEMPERATURE CONVERTER
-==============================
 
 1. Convert Temperature
 2. View History
@@ -62,31 +47,17 @@ TEMPERATURE CONVERTER
 4. About
 5. Exit
 
-Enter Choice : 1
+Enter Choice: 1
 
-Select Unit
+Enter Temperature: 25
 
-1. Celsius
-2. Fahrenheit
-3. Kelvin
-
-Enter Choice : 1
-
-Enter Temperature : 25
-
-Conversion Result
-
-Celsius : 25.00 °C
+Celsius    : 25.00 °C
 Fahrenheit : 77.00 °F
-Kelvin : 298.15 K
+Kelvin     : 298.15 K
 ```
 
----
-
-## 👨‍💻 Author
+## Author
 
 **Soham Koli**
 
 Software Development Internship Project
-
-Prodigy InfoTech
